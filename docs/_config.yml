@@ -1,13 +1,5 @@
 site_name: Equilibrium
 nav:
-  - Home: index.md
-  - Documentos: ./Documentos/documento_de_visao.md     
-theme:
-  name: material
-  custom_dir: docs/images
-  language: pt
-  palette:
-    scheme: default
-    primary: green
-  font:
-    text: Roboto
+  -Home: index.md
+  -Documentos: Documentos/documentos_de_visao.md
+theme: jekyll-theme-cayman

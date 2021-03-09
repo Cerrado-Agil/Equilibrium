@@ -4,9 +4,9 @@
 | :-- | :-- | :-- | :-- |
 | 11/02/2021 | 0.1 | Criação da estrutura do documento |  Flavio Vieira |
 | 18/02/2021 | 0.2 | Primeira versão documento de visão |  Flavio Vieira, Joao Paulo e Paulo Henrique|
-| 06/03/2021 | 0.3 | Revisão do documento pós feedbacks | Paulo Henrique, João Paulo, Flávio Vieira|
+| 06/03/2021 | 0.3 | Revisão do documento pós feedbacks | Paulo Henrique, João Paulo, Flávio Vieira|  
+ 06/03/2021 | 0.4 | Revisão gerenciamento de riscos | Paulo Henrique, João Paulo, Flávio Vieira|
     
-
 
 ## Sumário
 
@@ -44,7 +44,7 @@
 | O problema  | Pessoas que possuem alguma renda e não conseguem e/ou querem *insights* sobre seus gastos |
 | Afeta | Idosos, adultos e adolescentes  |
 | Cujo impacto é | Desequilibrio nos gastos que pode gerar endividamento |
-| Uma solução de sucesso seria | Geração de relatórios de gastos e investimentos, exibição de métricas via dashboard interativo |
+| Uma solução de sucesso seria | Geração de relatórios de gastos e investimentos, exibição de métricas via dashboard interativo |  
 
 #### 1.2. Objetivos do Projeto
 Plataforma virtual que visa auxiliar na gestão e visão dos gastos de pessoas, famílias e/ou grupos para tomadas decisão a fim de controlar a saúde financeira dos mesmos. A plataforma fornecerá visões, a partir de métricas, sobre organização financeira dos usuários.
@@ -52,10 +52,10 @@ Plataforma virtual que visa auxiliar na gestão e visão dos gastos de pessoas, 
 ### 2. STAKEHOLDERS
 
 | Nome | Descrição | Responsabilidade |
-|:--:|:--:|:--:|:--:|
+| :--: | :--: | :--: |  
 | Usuário comum (indivudual) | Usuário que deseja controlar seus gastos pessoais |  Monitorar e fazer o lançamento dos gastos na plataforma|
 | Equipe de desenvolvimento | Planejamento, desenvolvimento e manutenção da plataforma de acordo com as premissas e regras de negócio dos investidores |Executar o projeto dentro do prazo estipulado com base no escopo de engenharia de requisitos previamente definido|
-| Investidores | Zelam pela execução do projeto para que este tenha o resultado esperado e obtenham retorno sobre o investimento | Manter o padrão de qualidade e financiar o desenvolvimento do projeto |
+| Investidores | Zelam pela execução do projeto para que este tenha o resultado esperado e obtenham retorno sobre o investimento | Manter o padrão de qualidade e financiar o desenvolvimento do projeto | 
 
 ### 3. VISÃO GERAL DO PRODUTO  
 #### 3.1. Declaração de Posição do Produto
@@ -72,7 +72,7 @@ Plataforma virtual que visa auxiliar na gestão e visão dos gastos de pessoas, 
 #### 4.1. Organização do Projeto
 
 | Papel | Atribuições | Responsável | Participantes |
-|:----:|:----:|:----:|:----:|:----:|
+|:----:|:----:|:----:|:----:|
 |*Product Owner*| Responsável pelos interesses dos investidores; Define e pondera quais funcionalidades possuem prioridade de execução; | Paulo | João, Flávio |
 | *Scrum Master* | Reposável por monitorar as práticas scrum; Motivar a equipe; Entrega contínua de valor ao produto; | João | Flávio, Paulo|
 | Desenvolvedor | Executar o projeto com base no escopo predefinido pela Engenharia de Requisitos| Paulo, Flávio, João | Paulo, Flávio, João |
@@ -144,8 +144,18 @@ Como proposta de escalabilidade do projeto **Equilibrium** definiu-se como hiera
 | Mentor | Consultor com prioridade máxima em todas as áreas |
 
 #### 6.5 Gerenciamento de Riscos  
-* Mapa de riscos (a fazer)
-* Plano de mitigação ( a fazer)
+
+
+| Risco | Descrição | Mitigação |
+| :----: | :----: | :----: |  
+| R1 | Limitação técnica de membros da equipe| Ajuda dos membros da equipe e Sprint de treinamentos e tranferência de conhecimentos técnicos|  
+| R2 | Falta de comprometimento com o projeto| Envolver e motivar os membros da equipe relembrando a missão do projeto|  
+| R3 | Planejamento ineficiente|  Melhorar o Planejamento prévio | 
+| R4 | Dependência de um ou mais membros do time para o andanmento do projeto| Fazer parementos dos membros mais experientes com os menos experientes|  
+| R5 |Falha comunicação entre os membros da equipe| Deixar claro todos os canais de comunicação e dar mairo abertura para todos os membros|  
+| R6 | Membros atarefados em outras disciplinas| informar com atecedencia para redistribuião da tarefa|  
+
+
 
 #### 6.6 Critérios de Replanejamento  
 Os critérios de replanejamento estão contidos no Plano de mitigação.

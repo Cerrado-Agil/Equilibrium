@@ -1,0 +1,9 @@
+site_name: Equilibrium
+nav:
+  - Home: index.md
+  - Documentos:
+    - Visão: documento_de_visao.md
+    - Backlog: backlog.md
+
+theme: readthedocs
+

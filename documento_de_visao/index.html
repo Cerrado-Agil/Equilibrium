@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Visão - Equilibrium</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Vis\u00e3o";
+    var mkdocs_page_input_path = "documento_de_visao.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Equilibrium</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Documentos</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Visão</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#historico-de-revisao">Histórico de Revisão</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sumario">Sumário</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#visao-do-projeto">Visão do Projeto</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-introducao">1. Introdução</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#11-declaracao-do-problema">1.1. Declaração do Problema</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#12-objetivos-do-projeto">1.2. Objetivos do Projeto</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-stakeholders">2. Stakeholders</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-visao-geral-do-produto">3. Visão Geral do Produto</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#31-declaracao-de-posicao-do-produto">3.1. Declaração de Posição do Produto</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#32-minimo-produto-viavel-mvp">3.2. Mínimo Produto Viável (MVP)</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-visao-geral-do-projeto">4. Visão Geral do Projeto</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#41-organizacao-do-projeto">4.1. Organização do Projeto</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-ferramentas-ambiente-e-infra-estrutura">5. Ferramentas, Ambiente e Infra-Estrutura</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#51-hardware">5.1. Hardware</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#52-software">5.2. Software</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-processo-de-gerencia-de-projeto">6. Processo de Gerência de Projeto</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#61-planejamento-das-fases-e-iteracoes-do-projeto">6.1 Planejamento das Fases e Iterações do Projeto</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#62-processo-de-desenvolvimento-e-mensuracao">6.2 Processo de Desenvolvimento e Mensuração</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#63-matriz-de-comunicacao">6.3 Matriz de Comunicação</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#64-escalabilidade-do-projeto">6.4 Escalabilidade do Projeto</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#65-gerenciamento-de-riscos">6.5 Gerenciamento de Riscos</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#66-criterios-de-replanejamento">6.6 Critérios de Replanejamento</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#7-licoes-aprendidas">7. Lições Aprendidas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#8-referencias">8. Referências</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../backlog/">Backlog</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Equilibrium</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Documentos &raquo;</li>
+        
+      
+    
+    <li>Visão</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="documento-de-visao-do-projeto">Documento de Visão do Projeto</h1>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Data</th>
+<th align="left">Versão</th>
+<th align="left">Modificação</th>
+<th align="left">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">11/02/2021</td>
+<td align="left">0.1</td>
+<td align="left">Criação da estrutura do documento</td>
+<td align="left">Flavio Vieira</td>
+</tr>
+<tr>
+<td align="left">18/02/2021</td>
+<td align="left">0.2</td>
+<td align="left">Primeira versão documento de visão</td>
+<td align="left">Flavio Vieira, Joao Paulo e Paulo Henrique</td>
+</tr>
+<tr>
+<td align="left">06/03/2021</td>
+<td align="left">0.3</td>
+<td align="left">Revisão do documento pós feedbacks</td>
+<td align="left">Paulo Henrique, João Paulo, Flávio Vieira</td>
+</tr>
+<tr>
+<td align="left">06/03/2021</td>
+<td align="left">0.4</td>
+<td align="left">Revisão gerenciamento de riscos</td>
+<td align="left">Paulo Henrique, João Paulo, Flávio Vieira</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sumario">Sumário</h2>
+<pre><code>1. INTRODUÇÃO    
+    1.1.    Problema 
+    1.2.    Declaração do Problema  
+    1.3.    Objetivos do Projeto
+2. STAKEHOLDERS  
+3. VISÃO GERAL DO PRODUTO  
+    3.1.    Declaração de Posição do Produto  
+    3.2.    Mínimo Produto Viável (MVP)
+4. VISÃO GERAL DO PROJETO  
+    4.1.    Organização do Projeto  
+5. FERRAMENTAS, AMBIENTE E INFRA-ESTRUTURA  
+    5.1.    Hardware  
+    5.2.    Software
+6. PROCESSO DE GERÊNCIA DE PROJETO  
+    6.1.    Planejamento das Fases e Iterações do Projeto  
+    6.2.    Processo de Desenvolvimento e Mensuração  
+    6.3.    Milestones e Objetivos do Projeto  
+    6.4.    Matriz de Comunicação  
+    6.5.    Escalabilidade do Projeto  
+    6.6.    Gerenciamento de Riscos  
+    6.7.    Critérios de Replanejamento  
+7. LIÇÕES APRENDIDAS
+8. REFERÊNCIAS
+</code></pre>
+<h2 id="visao-do-projeto">Visão do Projeto</h2>
+<h3 id="1-introducao">1. Introdução</h3>
+<h4 id="11-declaracao-do-problema">1.1. Declaração do Problema</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Questionamento</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">O problema</td>
+<td align="center">Pessoas que possuem alguma renda e não conseguem e/ou querem <em>insights</em> sobre seus gastos</td>
+</tr>
+<tr>
+<td align="center">Afeta</td>
+<td align="center">Idosos, adultos e adolescentes</td>
+</tr>
+<tr>
+<td align="center">Cujo impacto é</td>
+<td align="center">Desequilibrio nos gastos que pode gerar endividamento</td>
+</tr>
+<tr>
+<td align="center">Uma solução de sucesso seria</td>
+<td align="center">Geração de relatórios de gastos e investimentos, exibição de métricas via dashboard interativo</td>
+</tr>
+</tbody>
+</table>
+<h4 id="12-objetivos-do-projeto">1.2. Objetivos do Projeto</h4>
+<p>Plataforma virtual que visa auxiliar na gestão e visão dos gastos de pessoas, famílias e/ou grupos para tomadas decisão a fim de controlar a saúde financeira dos mesmos. A plataforma fornecerá visões, a partir de métricas, sobre organização financeira dos usuários.</p>
+<h3 id="2-stakeholders">2. Stakeholders</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Nome</th>
+<th align="center">Descrição</th>
+<th align="center">Responsabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Usuário comum (indivudual)</td>
+<td align="center">Usuário que deseja controlar seus gastos pessoais</td>
+<td align="center">Monitorar e fazer o lançamento dos gastos na plataforma</td>
+</tr>
+<tr>
+<td align="center">Equipe de desenvolvimento</td>
+<td align="center">Planejamento, desenvolvimento e manutenção da plataforma de acordo com as premissas e regras de negócio dos investidores</td>
+<td align="center">Executar o projeto dentro do prazo estipulado com base no escopo de engenharia de requisitos previamente definido</td>
+</tr>
+<tr>
+<td align="center">Investidores</td>
+<td align="center">Zelam pela execução do projeto para que este tenha o resultado esperado e obtenham retorno sobre o investimento</td>
+<td align="center">Manter o padrão de qualidade e financiar o desenvolvimento do projeto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-visao-geral-do-produto">3. Visão Geral do Produto</h3>
+<h4 id="31-declaracao-de-posicao-do-produto">3.1. Declaração de Posição do Produto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Para</th>
+<th align="center">Quem</th>
+<th align="center">O <strong>Equilibrium</strong></th>
+<th align="center">Que</th>
+<th align="center">Ao contrário</th>
+<th align="center">Nosso produto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Qualquer pessoa que possua renda</td>
+<td align="center">Tem dificuldade com o controle de seus gastos e investimentos</td>
+<td align="center">Plataforma <em>web</em> de controle financeiro</td>
+<td align="center">Captar, tratar e gerar indicadores financeiros que possam auxiliar nas tomadas de decisões financeiras</td>
+<td align="center">Tradicional pĺanilha de gastos</td>
+<td align="center">Faz a gestão e exibição interativa de sua renda e gastos, seja em escopo individual ou em grupo</td>
+</tr>
+</tbody>
+</table>
+<h4 id="32-minimo-produto-viavel-mvp">3.2. Mínimo Produto Viável (MVP)</h4>
+<ul>
+<li>Registro do(s) usuário(s) na plataforma;</li>
+<li>Cadastro e armazenamento do histórico de movimentações financeiras;</li>
+<li>Tratamento e exibição interativa dos dados;</li>
+</ul>
+<h3 id="4-visao-geral-do-projeto">4. Visão Geral do Projeto</h3>
+<h4 id="41-organizacao-do-projeto">4.1. Organização do Projeto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Papel</th>
+<th align="center">Atribuições</th>
+<th align="center">Responsável</th>
+<th align="center">Participantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Product Owner</em></td>
+<td align="center">Responsável pelos interesses dos investidores; Define e pondera quais funcionalidades possuem prioridade de execução;</td>
+<td align="center">Paulo</td>
+<td align="center">João, Flávio</td>
+</tr>
+<tr>
+<td align="center"><em>Scrum Master</em></td>
+<td align="center">Reposável por monitorar as práticas scrum; Motivar a equipe; Entrega contínua de valor ao produto;</td>
+<td align="center">João</td>
+<td align="center">Flávio, Paulo</td>
+</tr>
+<tr>
+<td align="center">Desenvolvedor</td>
+<td align="center">Executar o projeto com base no escopo predefinido pela Engenharia de Requisitos</td>
+<td align="center">Paulo, Flávio, João</td>
+<td align="center">Paulo, Flávio, João</td>
+</tr>
+<tr>
+<td align="center">Mentor</td>
+<td align="center">Avaliar a qualidade do proejto criado</td>
+<td align="center">George Marsicano</td>
+<td align="center">Paulo, Flávio, João</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-ferramentas-ambiente-e-infra-estrutura">5. Ferramentas, Ambiente e Infra-Estrutura</h3>
+<h4 id="51-hardware">5.1. Hardware</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Perfil</th>
+<th align="center">Tipo de Hardware</th>
+<th align="center">Configurações</th>
+<th align="center">Qtd. PLanejada</th>
+<th align="center">Prazo Estimado</th>
+<th align="center">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Desenvolvedor</td>
+<td align="center">Computador</td>
+<td align="center">Intel I3; 4gb RAM;</td>
+<td align="center">03</td>
+<td align="center">18/02/21</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="52-software">5.2. Software</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Perfil</th>
+<th align="center">Tipo de Software</th>
+<th align="center">Nome da Ferramenta</th>
+<th align="center">Versão</th>
+<th align="center">Qtd. Licensas</th>
+<th align="center">Prazo Estimado</th>
+<th align="center">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Desenvolvedor</td>
+<td align="center">Gerenciador de versionamento e repositórios</td>
+<td align="center">GitHub</td>
+<td align="center">-</td>
+<td align="center">Free</td>
+<td align="center">Satisfeito</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Desenvolvedor</td>
+<td align="center">Editor de texto</td>
+<td align="center">VSCode</td>
+<td align="center">-</td>
+<td align="center">Free</td>
+<td align="center">Satisfeito</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Desenvolvedor</td>
+<td align="center">Deploy</td>
+<td align="center">Azure</td>
+<td align="center">-</td>
+<td align="center">Free</td>
+<td align="center">05/04/2021</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center"><em>Product Owner</em>, <em>Scrum Master</em> e Desenvolvedores</td>
+<td align="center">Comunicação</td>
+<td align="center">Microsoft Teams</td>
+<td align="center">-</td>
+<td align="center">03 licenças de estudantes UnB</td>
+<td align="center">Satisfeito</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-processo-de-gerencia-de-projeto">6. Processo de Gerência de Projeto</h3>
+<p>O <strong>Equilibrium</strong> utilizará como premissa organizacional de projeto de desenvolvimento de software o modelo ágil <em>Lean Kanbam</em>. Estrutura que permite uma entrega rápida, contínua e flexível de valor ao produto. Por se espelhar em uma cultura <em>Kanbam</em>, um quadro de Backlog será alimentado e cada história terá sua prioridade diante das demais.</p>
+<h4 id="61-planejamento-das-fases-e-iteracoes-do-projeto">6.1 Planejamento das Fases e Iterações do Projeto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Sprint</th>
+<th align="center">Início</th>
+<th align="center">Fim</th>
+<th align="center">Proposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">01</td>
+<td align="center">05/02/2021</td>
+<td align="center">11/02/2021</td>
+<td align="center">Definição do Projeto</td>
+</tr>
+<tr>
+<td align="center">02</td>
+<td align="center">12/02/2021</td>
+<td align="center">18/02/2021</td>
+<td align="center">Criação do Documento de Visão</td>
+</tr>
+<tr>
+<td align="center">03</td>
+<td align="center">19/02/2021</td>
+<td align="center">25/02/2021</td>
+<td align="center">Tranferência de conhecimentos técnicos</td>
+</tr>
+<tr>
+<td align="center">04</td>
+<td align="center">26/03/2021</td>
+<td align="center">04/03/2021</td>
+<td align="center">Documentação do projeto e revisões</td>
+</tr>
+<tr>
+<td align="center">05</td>
+<td align="center">05/03/2021</td>
+<td align="center">11/03/2021</td>
+<td align="center">Definição de Backlog do Produto; Organização estrutural dos requisitos; Definição do Backlog da Sprint 06</td>
+</tr>
+<tr>
+<td align="center">06</td>
+<td align="center">12/03/2021</td>
+<td align="center">18/03/2021</td>
+<td align="center">Implementação Backlog Sprint 06; Revisão de Sprint; Definição do Backlog da Sprint 07;</td>
+</tr>
+<tr>
+<td align="center">07</td>
+<td align="center">19/03/2021</td>
+<td align="center">25/03/2021</td>
+<td align="center">Implementação Backlog Sprint 07; Revisão de Sprint; Definição do Backlog da Sprint 08;</td>
+</tr>
+<tr>
+<td align="center">08</td>
+<td align="center">26/03/2021</td>
+<td align="center">01/04/2021</td>
+<td align="center">Implementação Backlog Sprint 08; Revisão de Sprint;</td>
+</tr>
+<tr>
+<td align="center">09</td>
+<td align="center">02/04/2021</td>
+<td align="center">08/04/2021</td>
+<td align="center">Revisão de código; Homologação; Entrega de Release 1.0;</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">09/04/2021</td>
+<td align="center">15/04/2021</td>
+<td align="center">Grooming de Backlog; Priorização de histórias; Definição do Backlog da Sprint 11</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">16/04/2021</td>
+<td align="center">22/04/2021</td>
+<td align="center">Implementação Backlog Sprint 11; Revisão de Sprint; Entrega de Release 1.1; Definição do Backlog da Sprint 12;</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">23/04/2021</td>
+<td align="center">29/04/2021</td>
+<td align="center">Implementação Backlog Sprint 12; Revisão de Sprint; Entrega de Release 1.2; Definição do Backlog da Sprint 13;</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">30/04/2021</td>
+<td align="center">06/05/2021</td>
+<td align="center">Revisão de código; Revisão dos documentos; Homologação; Entrega de Release 2.0;</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">07/05/2021</td>
+<td align="center">13/05/2021</td>
+<td align="center">Testes de usabilidade; Revisões gerais do projeto;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="62-processo-de-desenvolvimento-e-mensuracao">6.2 Processo de Desenvolvimento e Mensuração</h4>
+<ul>
+<li>Grooming de ideias</li>
+<li>Sprint Backlog</li>
+<li>Sprint Planning</li>
+<li>Sprint Review</li>
+<li>Daily Meetings</li>
+<li>Homologação</li>
+<li>Testes de usabilidade</li>
+</ul>
+<h4 id="63-matriz-de-comunicacao">6.3 Matriz de Comunicação</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Descrição</th>
+<th align="center">Área/Envolvidos</th>
+<th align="center">Periodicidade</th>
+<th align="center">Produtos Gerados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Sprint</td>
+<td align="center">Todos da equipe</td>
+<td align="center">Semanal</td>
+<td align="center">Atividades propostas para a semana</td>
+</tr>
+<tr>
+<td align="center">Planejamento</td>
+<td align="center">Todos da equipe</td>
+<td align="center">Definido na seção 6.1</td>
+<td align="center">Planejamento de Backlog para a próxima Sprint</td>
+</tr>
+<tr>
+<td align="center">Revisão</td>
+<td align="center">Todos da equipe</td>
+<td align="center">Definido na seção 6.1</td>
+<td align="center">Revisão das entregas propostas pelo plajamento de Sprint</td>
+</tr>
+<tr>
+<td align="center">Grooming</td>
+<td align="center">Todos da equipe</td>
+<td align="center">Definido na seção 6.1</td>
+<td align="center"><em>Brainstorm</em> de requisitos do produto</td>
+</tr>
+<tr>
+<td align="center">Homologação</td>
+<td align="center">Todos da equipe</td>
+<td align="center">Definido na seção 6.1</td>
+<td align="center">Conferência das entregas frente ao proposto no MVP</td>
+</tr>
+</tbody>
+</table>
+<h4 id="64-escalabilidade-do-projeto">6.4 Escalabilidade do Projeto</h4>
+<p>Como proposta de escalabilidade do projeto <strong>Equilibrium</strong> definiu-se como hierarquia de decisões:</p>
+<table>
+<thead>
+<tr>
+<th align="center">Função</th>
+<th align="center">Prioridade nas decisões</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Product Owner</em></td>
+<td align="center">Regras de negócio</td>
+</tr>
+<tr>
+<td align="center"><em>Scrum Master</em></td>
+<td align="center">Relativas à execução, planejamento e revisão das Sprints</td>
+</tr>
+<tr>
+<td align="center">Mentor</td>
+<td align="center">Consultor com prioridade máxima em todas as áreas</td>
+</tr>
+</tbody>
+</table>
+<h4 id="65-gerenciamento-de-riscos">6.5 Gerenciamento de Riscos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Risco</th>
+<th align="center">Descrição</th>
+<th align="center">Mitigação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">R1</td>
+<td align="center">Limitação técnica de membros da equipe</td>
+<td align="center">Ajuda dos membros da equipe e Sprint de treinamentos e tranferência de conhecimentos técnicos</td>
+</tr>
+<tr>
+<td align="center">R2</td>
+<td align="center">Falta de comprometimento com o projeto</td>
+<td align="center">Envolver e motivar os membros da equipe relembrando a missão do projeto</td>
+</tr>
+<tr>
+<td align="center">R3</td>
+<td align="center">Planejamento ineficiente</td>
+<td align="center">Melhorar o Planejamento prévio</td>
+</tr>
+<tr>
+<td align="center">R4</td>
+<td align="center">Dependência de um ou mais membros do time para o andanmento do projeto</td>
+<td align="center">Fazer parementos dos membros mais experientes com os menos experientes</td>
+</tr>
+<tr>
+<td align="center">R5</td>
+<td align="center">Falha comunicação entre os membros da equipe</td>
+<td align="center">Deixar claro todos os canais de comunicação e dar mairo abertura para todos os membros</td>
+</tr>
+<tr>
+<td align="center">R6</td>
+<td align="center">Membros atarefados em outras disciplinas</td>
+<td align="center">informar com atecedencia para redistribuião da tarefa</td>
+</tr>
+</tbody>
+</table>
+<h4 id="66-criterios-de-replanejamento">6.6 Critérios de Replanejamento</h4>
+<p>Os critérios de replanejamento estão contidos no Plano de mitigação.</p>
+<h3 id="7-licoes-aprendidas">7. Lições Aprendidas</h3>
+<ul>
+<li>Feito é melhor que perfeito</li>
+<li>Entrega contínua gera valor</li>
+<li>Todos são capazes</li>
+<li>Se o problema é de ninguem, ele é seu!  </li>
+</ul>
+<h3 id="8-referencias">8. Referências</h3>
+<ol>
+<li>
+<p><a href="https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html.">Texto descritivo sobre a estrutura e objetivo dos tópicos do documento de visão</a> - Acessado em 11/02/2021</p>
+</li>
+<li>
+<p><a href="https://www.desenvolvimentoagil.com.br/scrum/">Scrum  é  uma  metodologia  ágil  para  gestão  e  planejamento  de  projetos  de software</a> - Acessado 11/02/2021</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../backlog/" class="btn btn-neutral float-right" title="Backlog">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../backlog/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

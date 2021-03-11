@@ -5,7 +5,7 @@
 | 11/02/2021 | 0.1 | Criação da estrutura do documento |  Flavio Vieira |
 | 18/02/2021 | 0.2 | Primeira versão documento de visão |  Flavio Vieira, Joao Paulo e Paulo Henrique|
 | 06/03/2021 | 0.3 | Revisão do documento pós feedbacks | Paulo Henrique, João Paulo, Flávio Vieira|  
- 06/03/2021 | 0.4 | Revisão gerenciamento de riscos | Paulo Henrique, Flávio Vieira|
+ 10/03/2021 | 0.4 | Revisão gerenciamento de riscos | Paulo Henrique, Flávio Vieira|
     
 
 ## Sumário

@@ -137,17 +137,59 @@ Como proposta de escalabilidade do projeto **Equilibrium** definiu-se como hiera
 | Mentor | Consultor com prioridade máxima em todas as áreas |
 
 #### 6.5 Gerenciamento de Riscos  
-| Risco | Descrição | Mitigação |
-| :----: | :----: | :----: |  
-| R1 | Limitação técnica de membros da equipe| Ajuda dos membros da equipe e Sprint de treinamentos e tranferência de conhecimentos técnicos|  
-| R2 | Falta de comprometimento com o projeto| Envolver e motivar os membros da equipe relembrando a missão do projeto|  
-| R3 | Planejamento ineficiente|  Melhorar o Planejamento prévio | 
-| R4 | Dependência de um ou mais membros do time para o andanmento do projeto| Fazer parementos dos membros mais experientes com os menos experientes|  
-| R5 |Falha comunicação entre os membros da equipe| Deixar claro todos os canais de comunicação e dar mairo abertura para todos os membros|  
-| R6 | Membros atarefados em outras disciplinas| informar com atecedencia para redistribuião da tarefa|  
+
+O gerenciamento de risco tem como objetivo descrever e acompanhar quais são os riscos do projeto, com uso de indicadores de gestão de risco para avaliar a probabilidade e os impactos dessas ameaças ao projeto.
+
+
+| Risco | Descrição |  Mitigação | Probabilidade | Impacto |
+| :---- | :-- | :-- | :---- | :---- |  
+| R1 | Limitação técnica de membros da equipe| Ajuda dos membros da equipe e Sprint de treinamentos e tranferência de conhecimentos técnicos| alta | baixo |  
+| R2 | Falta de comprometimento da equipe com o projeto| Envolver e motivar os membros da equipe relembrando a missão do projeto| baixa | muito alto |  
+| R3 | Planejamento ineficiente|  Melhorar o Planejamento prévio |  moderada | alto |
+| R4 | Dependência de um ou mais membros do time para o andanmento do projeto| Fazer parementos dos membros mais experientes com os menos experientes| alta | baixo |
+| R5 |Falha comunicação entre os membros da equipe| Deixar claro todos os canais de comunicação e dar mairo abertura para todos os membros| alta | moderada |
+| R6 | Membros atarefados em outras disciplinas| informar com atecedencia para redistribuião da tarefa|  alta | baixo |
+| R7 | Erros de Priorização | Reavaliar a cada sprint a priorização e o MVP |  moderada | alto |
+| R7 | Desistência de membros | Realocação das tarefas |  baixo | muito alto |
+| R7 | Desistência de membros | Realocação das tarefas |  alta | baixo |
+
+&nbsp;
+### **Analise qualitativa**  
+
+
+| Probabilidade / Impacto | Peso|
+| :---- | :---- |
+| Muito alta | 0,9 |
+| Alta | 0,7 |
+| Moderada | 0,5 |
+| Baixa| 0,3 |
+| Muito baixa| 0,1 |
+
+&nbsp;
+### **Matriz de probabilidades X Impacto**
+| Probabilidade / Impacto | Muito baixa | Baixa | Moderada | Alta | Muito alta |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Muito alta | Risco elevado | Risco elevado | Risco elevado | Risco extremo | Risco extremo |
+| Alta | Risco moderado | Risco elevado | Risco elevado | Risco extremo | Risco extremo |
+| Moderada | Risco baixo | Risco moderado | Risco elevado | Risco extremo | Risco extremo |
+| Baixa| Risco baixo | Risco baixo | Risco moderado | Risco elevado| Risco extremo |
+| Muito baixa| Risco baixo | Risco baixo | Risco moderado | Risco elevado | Risco elevado |  
+
+&nbsp;  
+O monitoramento dos riscos será feito utilizando o Burndown de riscos de e matriz de probabilidades e impactos dos riscos no projeto, que estará presente na documentação dos resultados de cada sprint.
 
 #### 6.6 Critérios de Replanejamento  
-Os critérios de replanejamento estão contidos no Plano de mitigação.
+
+* Desistência de membros da equipe;
+* Mudança no escopo do projeto;
+* Mudança de arquitetura do projeto;
+* Erro de priorização;
+* Queda de produtividade;
+* Problemas relacionados com saúde de algum membro;
+* Nao aceitação, pelo professor, de ponto de controle;
+* Solução não atender as expectativas do usuário.;
+
+
     
 ### 7. Lições Aprendidas
 * Feito é melhor que perfeito

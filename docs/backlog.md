@@ -68,7 +68,7 @@ Controle suas finanças com mais eficiência
 |US19| EP3| F6| Eu como **usuário**, gostaria de **visualizar meus projetos** para que eu possa ter uma visão detalhada do andamento do projeto | 
 |US20| EP3| F6| Eu como **usuário**, gostaria de **visualizar minhas metas** para que eu possa gerir o andamento de minhas metas 
 
-
+&nbsp;
 ## 5. Quadro de Priorização
 Para que o projeto consiga honrar com o MVP, algumas *features* devem ser priorizadas em relação às demais por questões de valores ao produto e mínimo de funcionalidades viáveis. A ordem de prioridades está contida no quadro abaixo:
 

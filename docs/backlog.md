@@ -7,6 +7,7 @@
 | 10/02/2021 | 0.2 | Adição de épicos e historias de usuário |  Flavio Vieira |
 | 11/02/2021 | 0.3 | Refatoração de histórias de usuários |  Paulo Gontijo |
 | 30/03/2021 | 0.4 | Refatoração de épicos, features e histórias de usuários | Flavio Vieira |
+| 30/03/2021 | 0.5 | Quadro de priorização | Paulo Gontijo |
 
 &nbsp;
 ## 1. Tema estratégico
@@ -36,7 +37,7 @@ Controle suas finanças com mais eficiência
 |F4| Gerar relatórios de receitas e despesas |  
   
 &nbsp;
-### **Épico 03 - Planejamento Financeiro |**
+### **Épico 03 - Planejamento Financeiro**
 |ID|Descrição|
 |:--:|:--:|
 |F5| Gerenciar projetos e metas |
@@ -66,6 +67,18 @@ Controle suas finanças com mais eficiência
 |US18| EP3| F5| Eu como **usuário**, gostaria de **adicionar um nova meta** para que eu possa classificar meus objetivos para poupar dinheiro |
 |US19| EP3| F6| Eu como **usuário**, gostaria de **visualizar meus projetos** para que eu possa ter uma visão detalhada do andamento do projeto | 
 |US20| EP3| F6| Eu como **usuário**, gostaria de **visualizar minhas metas** para que eu possa gerir o andamento de minhas metas 
+
+
+## 5. Quadro de Priorização
+Para que o projeto consiga honrar com o MVP, algumas *features* devem ser priorizadas em relação às demais por questões de valores ao produto e mínimo de funcionalidades viáveis. A ordem de prioridades está contida no quadro abaixo:
+
+
+|Ordem|Feature|User Story|Pontuação (Dias de trabalho)|
+|:--:|:--:|:--:|:--:|
+|1|F1|US1|5|
+|2|F3|US9|2|
+|3|F3|US10|3|
+|4|F4|US14|5|
 
 
 

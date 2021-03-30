@@ -6,88 +6,66 @@
 | 09/03/2021 | 0.1 | Criação do documento|  Paulo Henrique |
 | 10/02/2021 | 0.2 | Adição de épicos e historias de usuário |  Flavio Vieira |
 | 11/02/2021 | 0.3 | Refatoração de histórias de usuários |  Paulo Gontijo |
+| 30/03/2021 | 0.4 | Refatoração de épicos, features e histórias de usuários | Flavio Vieira |
 
 &nbsp;
 ## 1. Tema estratégico
-Disseminar tecnologia de fácil acesso que possam agregar na vida de pessoas comuns.
+Controle suas finanças com mais eficiência
 
 &nbsp;
 ## 2. Épicos
 |ID|Descrição|
 |:--|:--|
-|EP1| Sistema de Usuarios |
-|EP2| Gerenciamento de Contas Bancarias|
-|EP3| Controle de Cartão de Crédito|
-|EP4| Planejamento Financeiro |
-|EP5| Controle de Investimentos |
+|EP1| Gestão de Usuários |
+|EP2| Gestão de Contas Bancarias|
+|EP3| Planejamento Financeiro |
 
 &nbsp;
 ## 3. Features
-### **Épico 01 - Sistema de Usuarios**
+### **Épico 01 - Gestão de Usuários**
 |ID|Descrição|
 |:--|:--|
-|F1| Sistema de CRUD usuário principal |
-|F2| Sistema de CRUD usuarios adicionais/dependentes |
+|F1| Registrar usuário |
+|F2| Editar usuário |
 
 &nbsp;
-### **Épico 02 - Gerenciamento de Contas Bancárias** 
+### **Épico 02 - Gestão de Contas Bancarias** 
 |ID|Descrição|
 |:--|:--|
-|F3| Inserir dados de movimentações das contas corrente, poupança e/ou de investimentos |
-|F4| Automatizar lançamentos recorrentes |
-|F5| Anexar comprovante de receitas e despesas |
-|F6| Gerar relatórios de receitas e despesas |  
+|F3| Inserir dados de movimentações das contas bancaria |
+|F4| Gerar relatórios de receitas e despesas |  
   
 &nbsp;
-### **Épico 03 - Controle de Cartão de Crédito**
-|ID|Descrição|
-|:--|:--|
-|F7| Inserir dos dados de extrato dos cartões de crédito |
-|F8| Automatizar de lançamentos pagamentos e despesas |
-|F9| Anexar extratos |
-|F10| Gerar relatórios por categorias de consumo |
-
-&nbsp;
-### **Épico 04 - Planejamento Financeiro |**
+### **Épico 03 - Planejamento Financeiro |**
 |ID|Descrição|
 |:--:|:--:|
-|F11| Gerenciar projetos e metas |
-|F12| Relatório comparativo entre conquistado e objetivos |  
-
-&nbsp;
-### **Épico 05 - Controle de Investimentos |**
-|ID|Descrição|
-|:--|:--|
-|F13| Gerenciar contas de investimento e suas carteiras |
-|F14| Controle e consolidação de carteiras de investimento |
-|F15| Relatório de performance de investimentos |
+|F5| Gerenciar projetos e metas |
+|F6| Gerar relatórios comparativo entre conquistado e objetivos |  
 
 &nbsp;
 ## 4. Histórias de usuário
 |ID|Épico|Feature|Descrição|
 |:--|:--|:--|:--|
-|US1| EP1| F1| Eu como **usuário**, gostaria de me  **cadastrar na plataforma Equilibrium**|
-|US2| EP1| F1| Eu como **usuário**, gostaria de **atualizar meu cadastro** na plataforma |
-|US3| EP1| F1| Eu como **usuário**, gostaria de **recuperar minha senha** do cadastro na plataforma |
-|US4| EP1| F1| Eu como **usuário**, gostaria de **apagar meu cadastro** na plataforma |
-|US5| EP1| F2| Eu como **usuário**, gostaria de **cadastrar um usuario adicional** associando-o a mim |
-|US6| EP1| F2| Eu como **usuário**, gostaria de **apagar um usuario adicional** na plataforma |
-|US7| EP2| F3| Eu como **usuário**, gostaria de **adicionar minhas contas** na plataforma|
-|US8| EP2| F3| Eu como **usuário**, gostaria de **adicionar nova receita**
-|US9| EP2| F3| Eu como **usuário**, gostaria de **adicionar nova despesa**
-|US10| EP2| F4| Eu como **usuário**, gostaria de **adicionar contas recorrentes** no calendário
-|US11| EP2| F5| Eu como **usuário**, gostaria de **adicionar um comprovante pagamento**
-|US12| EP2| F5| Eu como **usuário**, gostaria de **adicionar lançamentos de receitas futuras**
-|US13| EP2| F6| Eu como **usuário**, gostaria de **visualizar meu relatório**
-|US14| EP3| F7| Eu como ,**usuário**, gostaria de **adicionar extrato do cartão de credito**|
-|US15| EP3| F8| Eu como ,**usuário**, gostaria de **adicionar despezas recorrentes** do cartão de crédito|
-|US16| EP3| F9| Eu como ,**usuário**, gostaria de **anexar comprovante de pagamento de credito**|
-|US17| EP3| F10| Eu como ,**usuário**, gostaria de **visualizar meu relatório** do cartão de crédito |
-|US18| EP4| F11| Eu como ,**usuário**, gostaria de **adicionar um novo projeto** em monitoramento |
-|US19| EP4| F12| Eu como ,**usuário**, gostaria de **conferir minha evolução** quanto ao projeto em monitoramento |
-|US20| EP5| F13| Eu como **usuário**, gostaria de **adicionar minhas contas de investimentos** na plataforma|
-|US21| EP5| F14| Eu como **usuário**, gostaria de **me informar quanto a consolidação total** dos meus investimentos |
-|US20| EP5| F15| Eu como **usuário**, gostaria de **visualizar o grau de performance** dos meus investimentos consolidados |
+|US1| EP1| F1| Eu como **usuário**, gostaria de **cadastrar na plataforma** para que possa ter acesso as suas funcionalidades|
+|US2| EP1| F1| Eu como **usuário**, gostaria de **cadastrar um usuário adicional** para que possa compartilhar minhas informações financeiras |
+|US3| EP1| F1| Eu como **usuário**, gostaria de **recuperar minha senha do cadastro** para garantir acesso a minha conta|
+|US4| EP1| F2| Eu como **usuário**, gostaria de **editar meu cadastro** para manter meus dados atualizados na plataforma |
+|US5| EP1| F2| Eu como **usuário**, gostaria de **apagar meu cadastro** para que meus dados pessoais sejam excluídos da plataforma |
+|US6| EP1| F2| Eu como **usuário**, gostaria de **apagar um usuário adicional** para que eu possa gerenciar o acesso as minhas informações financeiras |
+|US7| EP2| F3| Eu como **usuário**, gostaria de **adicionar minha conta bancária** para que possa controlar as receitas e despesas da conta|
+|US8| EP2| F3| Eu como **usuário**, gostaria de **adicionar meu cartão de credito** para que possa controlar limite e despesas do cartão|
+|US9| EP2| F3| Eu como **usuário**, gostaria de **adicionar nova despesa** para que eu possa classificar minhas despesas|
+|US10| EP2| F3| Eu como **usuário**, gostaria de **adicionar nova receita** para que eu possa gerenciar as fontes de receita |
+|US11| EP2| F3| Eu como **usuário**, gostaria de **adicionar gastos recorrentes** no calendário para que eu possa prever gastos futuros |
+|US12| EP2| F3| Eu como **usuário**, gostaria de **adicionar parcelamentos** do cartão de crédito| para que eu possa controlar minhas compras parceladas | 
+|US13| EP2| F4| Eu como **usuário**, gostaria de **visualizar meu relatório de despesas do cartão de crédito** para que eu possa ter uma visão detalhada das despesas com cartão de crédito |
+|US14| EP2| F4| Eu como **usuário**, gostaria de **visualizar meu relatório de despesas da conta bancária** para que eu possa ter uma visão detalhada das despesas na conta bancária |
+|US15| EP3| F5| Eu como **usuário**, gostaria de **adicionar um novo projeto** para que eu possa gerir receitas e despesas de um projeto |
+|US16| EP3| F5| Eu como **usuário**, gostaria de **adicionar despensa ao projeto** para que eu possa controlar meus objetivos e gastos do projeto
+|US17| EP3| F5| Eu como **usuário**, gostaria de **adicionar receita ao projeto** para que eu possa controlar meus objetivos e gastos do projeto
+|US18| EP3| F5| Eu como **usuário**, gostaria de **adicionar um nova meta** para que eu possa classificar meus objetivos para poupar dinheiro |
+|US19| EP3| F6| Eu como **usuário**, gostaria de **visualizar meus projetos** para que eu possa ter uma visão detalhada do andamento do projeto | 
+|US20| EP3| F6| Eu como **usuário**, gostaria de **visualizar minhas metas** para que eu possa gerir o andamento de minhas metas 
 
 
 

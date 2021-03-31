@@ -105,7 +105,7 @@ O **Equilibrium** utilizará como premissa organizacional de projeto de desenvol
 | 05 | 05/03/2021 | 11/03/2021 | Definição de Backlog do Produto; Organização estrutural dos requisitos; Definição do Backlog da Sprint 06|
 | 06 | 12/03/2021 | 18/03/2021 | Implementação Backlog Sprint 06; Revisão de Sprint; Definição do Backlog da Sprint 07; |
 | 07 | 19/03/2021 | 25/03/2021 | Implementação Backlog Sprint 07; Revisão de Sprint; Definição do Backlog da Sprint 08;|
-| 08 | 26/03/2021 | 01/04/2021 | Implementação Backlog Sprint 08; Revisão de Sprint; |
+| 08 | 26/03/2021 | 01/04/2021 | Entregas da unidade 3 |
 | 09 | 02/04/2021 | 08/04/2021 | Revisão de código; Homologação; Entrega de Release 1.0; |
 | 10 | 09/04/2021 | 15/04/2021 | Grooming de Backlog; Priorização de histórias; Definição do Backlog da Sprint 11 |
 | 11 | 16/04/2021 | 22/04/2021 | Implementação Backlog Sprint 11; Revisão de Sprint; Entrega de Release 1.1; Definição do Backlog da Sprint 12; |

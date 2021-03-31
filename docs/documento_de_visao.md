@@ -6,6 +6,7 @@
 | 18/02/2021 | 0.2 | Primeira versão documento de visão |  Flavio Vieira, Joao Paulo e Paulo Henrique|
 | 06/03/2021 | 0.3 | Revisão do documento pós feedbacks | Paulo Henrique, João Paulo, Flávio Vieira|  
  06/03/2021 | 0.4 | Revisão gerenciamento de riscos | Paulo Henrique, Flávio Vieira|
+  31/03/2021 | 0.5 | Revisão do documento pós feedbacks | Paulo Henrique |
     
 
 ## Sumário
@@ -58,7 +59,7 @@ Prover uma plataforma virtual que visa auxiliar na gestão e visão dos gastos d
 #### 3.1. Declaração de Posição do Produto
 | Para | Quem | O **Equilibrium** | Que | Ao Contrário | Nosso Produto|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|Idosos, adultos e adolescente os quais possuam alguma renda | Tem dificuldade com o controle de seus gastos e investimentos | Plataforma *web* de controle financeiro | Gera indicadores e dicas que possam auxiliar nas tomadas de decisões financeiras | Tradicional pĺanilha de gastos | Faz a gestão e exibição interativa de sua renda e gastos, seja em escopo individual ou em grupo |
+|Idosos, adultos e adolescente os quais possuam alguma renda | Tem dificuldade com o controle de seus gastos e investimentos | Plataforma *web* de controle financeiro | Gera indicadores e dicas que possam auxiliar nas tomadas de decisões financeiras | Tradicional pĺanilha de gastos | Fornece apoio à gestão e exibição interativa de sua renda e gastos, seja em escopo individual ou em grupo |
 
 &nbsp;
 #### 3.2. Mínimo Produto Viável (MVP)
@@ -92,10 +93,11 @@ Uma solução de sucesso para o problema analisado seria a criação de um **das
 
 &nbsp;
 ### 6. Processo de Gerência de Projeto  
-O **Equilibrium** utilizará como premissa organizacional de projeto de desenvolvimento de software o modelo ágil *Lean Kanbam*. Estrutura que permite uma entrega rápida, contínua e flexível de valor ao produto. Por se espelhar em uma cultura *Kanbam*, um quadro de Backlog será alimentado e cada história terá sua prioridade diante das demais.
+O **Equilibrium** utilizará como premissa organizacional de projeto de desenvolvimento de software o modelo ágil *Lean Kanban*. Estrutura que permite uma entrega rápida, contínua e flexível de valor ao produto. Por se espelhar em uma cultura *Kanban*, um quadro de Backlog será alimentado e cada história terá sua prioridade diante das demais. Além disso, a equipe terá reuniões recorrentes de planejamento, revisão e de comunicação, visando manter consistência nas entregas e aperfeiçoar a eficiência na resolução de eventuais problemas que surgirem.
 
 &nbsp;
 #### 6.1. Planejamento das Fases e Iterações do Projeto  
+A tabela abaixo exibe o planejamento, por sprints, do projeto. Para simplificar a exibição do mesmo, um documento de **Roadmap** foi criado com a proposta de detalhar as definições de backlog das sprints, tarefas e critérios de aceitação das histórias que as compõem.
 | Sprint | Início | Fim | Proposta |
 | :---: | :---: | :---: | :---: |
 | 01 | 05/02/2021 | 11/02/2021 | Definição do Projeto |
@@ -105,17 +107,26 @@ O **Equilibrium** utilizará como premissa organizacional de projeto de desenvol
 | 05 | 05/03/2021 | 11/03/2021 | Definição de Backlog do Produto; Organização estrutural dos requisitos; Definição do Backlog da Sprint 06|
 | 06 | 12/03/2021 | 18/03/2021 | Implementação Backlog Sprint 06; Revisão de Sprint; Definição do Backlog da Sprint 07; |
 | 07 | 19/03/2021 | 25/03/2021 | Implementação Backlog Sprint 07; Revisão de Sprint; Definição do Backlog da Sprint 08;|
-| 08 | 26/03/2021 | 01/04/2021 | Entregas da unidade 3 |
-| 09 | 02/04/2021 | 08/04/2021 | Revisão de código; Homologação; Entrega de Release 1.0; |
-| 10 | 09/04/2021 | 15/04/2021 | Grooming de Backlog; Priorização de histórias; Definição do Backlog da Sprint 11 |
-| 11 | 16/04/2021 | 22/04/2021 | Implementação Backlog Sprint 11; Revisão de Sprint; Entrega de Release 1.1; Definição do Backlog da Sprint 12; |
-| 12 | 23/04/2021 | 29/04/2021 | Implementação Backlog Sprint 12; Revisão de Sprint; Entrega de Release 1.2; Definição do Backlog da Sprint 13; |
-| 13 | 30/04/2021 | 06/05/2021 | Revisão de código; Revisão dos documentos; Homologação; Entrega de Release 2.0; |
-| 14 | 07/05/2021 | 13/05/2021 | Testes de usabilidade; Revisões gerais do projeto; |
+| 08 | 26/03/2021 | 01/04/2021 | Implementação Sprint Backlog 08; Definição do Backlog Sprint 09;  Entregas da unidade 3; |
+| 09 | 02/04/2021 | 08/04/2021 | Implementação Backlog Sprint 09; Revisão de Sprint; Definição do Backlog da Sprint 10;|
+| 10 | 09/04/2021 | 15/04/2021 | Implementação Backlog Sprint 10; Revisão de Sprint; Definição do Backlog da Sprint 11;|
+| 11 | 16/04/2021 | 22/04/2021 | Implementação Backlog Sprint 11; Revisão de Sprint; Definição do Backlog da Sprint 12; |
+| 12 | 23/04/2021 | 29/04/2021 | Implementação Backlog Sprint 12; Revisão de Sprint; Definição do Backlog da Sprint 13; |
+| 13 | 30/04/2021 | 06/05/2021 | Revisão de código; Revisão dos documentos; Homologação; Entrega de Release 1.0; |
+| 14 | 07/05/2021 | 13/05/2021 | Revisões gerais do projeto; |
 
 &nbsp;
-#### 6.2. Processo de Desenvolvimento e Mensuração   
-O *Lean Kanbam* é um método para a implantação de mudanças que não prescreve papéis ou práticas específicas. Em vez disso, oferece uma série de princípios que buscam melhorar o desempenho e reduzir desperdício, eliminando atividades que não agregam valor para a equipe/projeto. Para controlar estas atividades, regularmente, **histórias de usuários** serão escritas e **pontuadas** de forma que haja uma **priorização** na execução visando, sempre, o êxito do **MVP** no menor prazo possível.
+#### 6.2. Processo de Desenvolvimento e Mensuração
+Após definir a ideia do projeto, iniciou-se um processo de consolidação e validação técnica dessas ideias. O esquema abaixo demonstra as etapas a serem seguidas para a construção do mesmo:
+1. Levantamento dos requisitos;
+2. Análise e refinamento dos requisitos;
+3. Verificação e validação dos requisitos;
+4. Definição de arquitetura;
+5. Implementação;
+6. Testes;
+7. Deploy.
+
+A respeito da mensuração, o cálculo da capacidade de desenvolvimento da equipe, por sprint, será feito levando em conta a média, semanal, da quantidade de horas disponíveis pelos desenvolvedores. Seguindo a proporção de 1:1, cada ponto destinado a uma história equivale 1 hora de trabalho.
 
 &nbsp;
 #### 6.3. Matriz de Comunicação  
@@ -124,7 +135,6 @@ O *Lean Kanbam* é um método para a implantação de mudanças que não prescre
 | Sprint | Todos da equipe | Semanal | Atividades propostas para a semana |
 | Planejamento | Todos da equipe | Definido na seção 6.1 | Planejamento de Backlog para a próxima Sprint |
 | Revisão | Todos da equipe | Definido na seção 6.1 | Revisão das entregas propostas pelo plajamento de Sprint |
-| Grooming | Todos da equipe | Definido na seção 6.1 | *Brainstorm* de requisitos do produto |
 | Homologação | Todos da equipe | Definido na seção 6.1 | Conferência das entregas frente ao proposto no MVP |
 
 &nbsp;
@@ -144,13 +154,12 @@ O gerenciamento de risco tem como objetivo descrever e acompanhar quais são os 
 
 | Risco | Descrição |  Mitigação | Indicador de Monitoramento | *Threshold*
 | :---- | :-- | :-- | :--: | :--: |
-| R1 | Limitação técnica de membros da equipe| Mobilização da equipe para realizar treinamentos e KTs (*Knowledge Transfer* - Transferência de conhecimento)| Heatmap de conhecimentos | Estagnação em baixo nível | 
-| R2 | Falta de comprometimento da equipe com o projeto| Envolver e motivar os membros da equipe relembrando a missão do projeto| Burndown| Finalizar sprint sem entregar o que foi proposto |
-| R3 | Planejamento ineficiente |  Analisar os pontos falhos do planejamento prévio e corrigir os posteriores | Entregas sem geração de valor para o negócio | Realease 1.0 distante de MVP|
-| R4 | Dependência de um ou mais membros do time para o andamento do projeto| Fazer pareamento dos membros mais experientes com os menos experientes| WIP (*Work in Progress*) | História altamente dependente de WIP |
-| R5 | Falha na comunicação entre os membros da equipe| Deixar claro todos os canais de comunicação e dar maior abertura para todos os membros | Quadro Kanbam | Mais de um desenvolvedor trabalhando na mesma história |
-| R6 | Membros atarefados em outras disciplinas| Criação de um cronograma em conjunto que possa ponderar a capacidade de entrega individual e manter a entrega contínua para o projeto | Agenda | Excessivos conflitos de entregas|
-| R8 | Desistência de membros | Realocação das tarefas | Aviso prévio | - |
+| R1 | Limitação técnica de membros da equipe| Mobilização da equipe para realizar transferência de conhecimentos | Histórias | Incapacidade de concluir a história delegada| 
+| R2 | Falta de comprometimento da equipe com o projeto| Envolver e motivar os membros da equipe relembrando a missão do projeto| Burndown| Linha de trabalho restante real constantemente acima da linha de trabalho restante ideal |
+| R3 | Planejamento ineficiente |  Analisar os pontos falhos do planejamento prévio e corrigir os posteriores | Entregas sem geração de valor para o negócio | Backlog da Sprint sem foco no MVP |
+| R4 | Histórias altamente dependentes | Pareamento em dupla para agilizar a conclusão da história geradora de dependência | WIP (*Work in Progress*) | História altamente dependente de algum WIP. Ex.: Conclusão do front-end bloqueada por dependência de back-end em construção.  |
+| R5 | Membros atarefados em outras disciplinas| Criação de um cronograma em conjunto que possa ponderar a capacidade de entrega individual e manter a entrega contínua para o projeto | Agenda | Excessivos conflitos de entregas|
+| R6 | Desistência de membros | Realocação das tarefas | Aviso prévio | - |
 
 &nbsp;
 ### 7. Lições Aprendidas

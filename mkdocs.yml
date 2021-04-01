@@ -4,6 +4,7 @@ nav:
   - Documentos:
     - Visão: documento_de_visao.md
     - Backlog: backlog.md
+    - Roadmap: Roadmap.md
 
 theme: readthedocs
 

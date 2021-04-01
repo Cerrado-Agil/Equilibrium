@@ -69,8 +69,8 @@ Controle suas finanças com mais eficiência.
 
 &nbsp;
 |ID|Descrição|
-|:--:|:--|
-|AE1| Pesquisar como implementar a US1 |
+|:--:|:--:|
+|AE1| Pesquisar como implementar a US1|
 
 
 &nbsp;
@@ -84,7 +84,7 @@ Para a construção do nosso MVP, algumas *features* e *User Stories* devem ser 
 |2|F3|US7|
 |3|F3|US8|
 |4|F3|US9|
-|5|F4|US11|
+|5|F4|US11||
 
 
 

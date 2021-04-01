@@ -98,6 +98,9 @@ O **Equilibrium** utilizará como premissa organizacional de projeto de desenvol
 &nbsp;
 #### 6.1. Planejamento das Fases e Iterações do Projeto  
 A tabela abaixo exibe o planejamento, por sprints, do projeto. Para simplificar a exibição do mesmo, um documento de **Roadmap** foi criado com a proposta de detalhar as definições de backlog das sprints, tarefas e critérios de aceitação das histórias que as compõem.
+
+&nbsp;
+
 | Sprint | Início | Fim | Proposta |
 | :---: | :---: | :---: | :---: |
 | 01 | 05/02/2021 | 11/02/2021 | Definição do Projeto |
@@ -113,7 +116,7 @@ A tabela abaixo exibe o planejamento, por sprints, do projeto. Para simplificar 
 | 11 | 16/04/2021 | 22/04/2021 | Implementação Backlog Sprint 11; Revisão de Sprint; Definição do Backlog da Sprint 12; |
 | 12 | 23/04/2021 | 29/04/2021 | Implementação Backlog Sprint 12; Revisão de Sprint; Definição do Backlog da Sprint 13; |
 | 13 | 30/04/2021 | 06/05/2021 | Revisão de código; Revisão dos documentos; Homologação; Entrega de Release 1.0; |
-| 14 | 07/05/2021 | 13/05/2021 | Revisões gerais do projeto; |
+| 14 | 07/05/2021 | 13/05/2021 | Revisões gerais do projeto;|
 
 &nbsp;
 #### 6.2. Processo de Desenvolvimento e Mensuração

@@ -103,8 +103,8 @@ A tabela abaixo exibe o planejamento, por sprints, do projeto. Para simplificar 
 | 01 | 05/02/2021 | 11/02/2021 | Definição do Projeto |
 | 02 | 12/02/2021 | 18/02/2021 | Criação do Documento de Visão |
 | 03 | 19/02/2021 | 25/02/2021 | Tranferência de conhecimentos técnicos | 
-| 04 | 26/03/2021 | 04/03/2021 | Documentação do projeto e revisões |
-| 05 | 05/03/2021 | 11/03/2021 | Definição de Backlog do Produto; Organização estrutural dos requisitos; Definição do Backlog da Sprint 06|
+| 04 | 26/02/2021 | 04/03/2021 | Documentação do projeto e revisões |
+| 05 | 05/03/2021 | 11/03/2021 | Definição de Backlog do Produto; Organização estrutural dos requisitos; Definição do Backlog da Sprint 06; Entregas da Unidade 2;|
 | 06 | 12/03/2021 | 18/03/2021 | Implementação Backlog Sprint 06; Revisão de Sprint; Definição do Backlog da Sprint 07; |
 | 07 | 19/03/2021 | 25/03/2021 | Implementação Backlog Sprint 07; Revisão de Sprint; Definição do Backlog da Sprint 08;|
 | 08 | 26/03/2021 | 01/04/2021 | Implementação Sprint Backlog 08; Definição do Backlog Sprint 09;  Entregas da unidade 3; |

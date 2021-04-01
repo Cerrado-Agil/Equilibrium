@@ -60,7 +60,7 @@ Controle suas finanças com mais eficiência.
 |US12| EP2| F4| Eu como **usuário**, gostaria de **gerar** um arquivo para que eu possa **exportar** meu relatório da carteira |
 |US13| EP3| F5| Eu como **usuário**, gostaria de **adicionar** um novo objetivo para que eu possa **monitorar** meus planejamentos |
 |US14| EP3| F5| Eu como **usuário**, gostaria de **editar** um objetivo para que eu possa **atualizar** meus planejamentos |
-|US15| EP3| F5| Eu como **usuário**, gostaria de **adicionar** uma nova meta para que eu possa **gerir** meus objetivos |
+|US15| EP3| F5| Eu como **usuário**, gostaria de **ser notificado** quanto ao meu progresso para **acompanhar** meus objetivos |
 |US16| EP3| F6| Eu como **usuário**, gostaria de **acessar** um relatório do meu planejamento para que eu possa **acompanhar** o ciclo de vida dos meus objetivos |
 |US17| EP3| F6| Eu como **usuário**, gostaria de **gerar** um arquivo para que eu possa **exportar** meu relatório de planejamento|
 
@@ -70,9 +70,7 @@ Controle suas finanças com mais eficiência.
 &nbsp;
 |ID|Descrição|
 |:--:|:--|
-|AE1| Estudar sobre as tecnologias envolvidas no projeto |
-|AE2| Transferir conhecimento entre o time |
-|AE3| Pesquisar como implementar a US1 |
+|AE1| Pesquisar como implementar a US1 |
 
 
 &nbsp;

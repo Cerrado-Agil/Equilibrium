@@ -78,8 +78,6 @@ Controle suas finanças com mais eficiência.
 ## 6. Quadro de Priorização
 Para a construção do nosso MVP, algumas *features* e *User Stories* devem ser priorizadas em relação às demais por questões de entrega de valor e mínimo de funcionalidades necessárias para que a plataforma entregue funcione. A ordem das prioridades está contida no quadro abaixo:
 
-&nbsp;
-
 |Ordem|Feature|User Story|
 |:--:|:--:|:--:|
 |1|F1|US1|
@@ -87,6 +85,8 @@ Para a construção do nosso MVP, algumas *features* e *User Stories* devem ser 
 |3|F3|US8|
 |4|F3|US9|
 |5|F4|US11||
+
+&nbsp;
 
 
 

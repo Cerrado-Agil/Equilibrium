@@ -68,6 +68,7 @@ Controle suas finanças com mais eficiência.
 ## 5. Atividades Extras
 
 &nbsp;
+
 |ID|Descrição|
 |:--:|:--:|
 |AE1| Pesquisar como implementar a US1|
@@ -78,6 +79,7 @@ Controle suas finanças com mais eficiência.
 Para a construção do nosso MVP, algumas *features* e *User Stories* devem ser priorizadas em relação às demais por questões de entrega de valor e mínimo de funcionalidades necessárias para que a plataforma entregue funcione. A ordem das prioridades está contida no quadro abaixo:
 
 &nbsp;
+
 |Ordem|Feature|User Story|
 |:--:|:--:|:--:|
 |1|F1|US1|

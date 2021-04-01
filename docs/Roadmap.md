@@ -81,7 +81,6 @@
 - Tarefas
   - Criar prototipo de baixa fidelidade
   - Estudo sobre arquitetura do projeto
-  -  
  
 - Criterios de aceitação
   - Verificar a viabilidade da arquitetura do projeto
@@ -101,7 +100,6 @@
     -  Estrutura de CRUD definida
     -  Estrutura de front-end
     -  Estrutura de back-end
-  - 
 --------------------------------------------------------------------------------------------------------------
 
 
